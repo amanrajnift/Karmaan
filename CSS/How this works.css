@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+.work-div{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+	max-height: 521px;
+	gap: 90px;
+	justify-content: space-between;
+}
+
+.work-text-box{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+	height: 521px;
+}
+
+.work-card-box{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 50px;
+	width: 528px;
+	height: 412px;
+}
+
+.work-title{
+	height: 31px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	color: #000000;
+}
+
+.work-heading{
+	height: 186px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 62px;
+	color: #000000;
+}
+
+
+.work-para{
+	height: 186px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	color: #000000;
+}
+
+.work-cta{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px 30px;
+	gap: 10px;
+	width: 214px;
+	height: 58px;
+	background: #FF7070;
+	border-radius: 10px;
+	cursor: pointer;
+
+	text-decoration: none;
+	border: none;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 450;
+	font-size: 30px;
+	line-height: 38px;
+	color: #FFFDFC;
+}
+
+.work-card-semibox1{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 168px;
+	justify-content: space-between;
+}
+
+.work-card-semibox2{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 162px;
+	justify-content: space-between;
+}
+
+.schedule-pickup-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 10px;
+
+	width: 180px;
+	height: 172px;
+}
+
+.donate-clothes-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 10px;
+
+	width: 180px;
+	height: 190px;
+}
+
+.receieve-rewards-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 10px;
+
+	width: 180px;
+	height: 172px;
+}
+
+.impact-the-community-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 10px;
+
+	width: 180px;
+	height: 172px;
+}
+
+.card-icon{
+	width: 80px;
+	height: 80px;
+}
+
+.card-title{
+	height: 23px;
+	width: 180px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 450;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.card-text{
+	width: 180px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	color: #000000;
+}

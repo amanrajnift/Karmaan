@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+.campaign-div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 100px;
+	max-height: 673px;
+	gap: 40px;
+}
+
+.headline-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.campaign-main-headline{
+	height: 62px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 62px;
+	text-align: center;
+	color: #000000;
+}
+
+.arrow-button-div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0px;
+	gap: 20px;
+	height: 62px;
+}
+
+.left-arrow-cta{
+	display: flex;
+	justify-content: center;
+	padding: 20px 17px;
+	gap: 10px;
+
+	width: 20px;
+	height: 22px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.right-arrow-cta{
+	display: flex;
+	justify-content: center;
+	padding: 20px 17px;
+	gap: 10px;
+
+	width: 20px;
+	height: 22px;
+
+	background: #FF7070;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.campaign-card-div{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 0px;
+	gap: 32px;
+	max-height: 571px;
+}
+
+.campaign-card{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 25px;
+
+	width: 356px;
+	height: 521px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+
+.campaign-image{
+	position: relative;
+	margin-bottom: 45px;
+}
+
+.campaign-place{
+	position:absolute;
+	top: 205px;
+	left: 50%;
+	transform: translate(-50%);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 30px;
+	gap: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	height: 31px;
+
+	background: #FF7070;
+	border-radius: 5px;
+	height: 31px;
+
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.campaign-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 20px;
+	max-height: 245px;
+	width: 356px;
+}
+
+.campaign-text{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 10px;
+	width: 356px;
+	height: 83px;
+}
+
+.campaign-headline{
+	height: 31px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 31px;
+	color: #000000;
+}
+
+.campaign-subheadline{
+	height: 42px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.campaign-data-div{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 57px;
+
+	width: 356px;
+	height: 64px;
+}
+
+.campaign-data-semidiv{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;;
+	height: 64px;
+}
+
+.campaign-data-goals{
+	height: 18px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #5DADAA;
+}
+
+.campaign-data-value1{
+	height: 46px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 46px;
+	color: #5DADAA;
+}
+
+.campaign-data-donated{
+	height: 18px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FF7070;
+}
+
+.campaign-data-value2{
+	height: 46px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 46px;
+	color: #FF7070;
+}
+
+.campaign-data-togo{
+	height: 18px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.campaign-data-value3{
+	height: 46px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 46px;
+	color: #000000;
+}
+
+.campaign-cta{
+	text-decoration: none;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	gap: 10px;
+
+	width: 356px;
+	height: 58px;
+
+	background: #FF7070;
+	border-radius: 10px;
+
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 450;
+	font-size: 30px;
+	line-height: 38px;
+
+	color: #FFFDFC;
+}

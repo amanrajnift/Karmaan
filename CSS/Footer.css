@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer-div{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-left: 80px;
+	margin-right: 80px;
+	max-height: 277px;
+	margin-bottom: 100px;
+	padding: 0px;
+	gap: 194px;
+}
+
+.copyright{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 80px;
+	margin-right: 80px;
+	height: 23px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	color: #000000;
+}
+
+.brand-details{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+	height: 204px;
+	width:298px;
+}
+
+.footer-navigation{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 100px;
+	height: 196px;
+}
+
+.footer-logo{
+	width: 151px;
+	height: 50px;
+}
+
+.footer-about-brand{
+	height: 84px;
+
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+
+	color: #000000;
+}
+
+.footer-social-media{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+
+	height: 30px;
+}
+
+
+.social-media-icon{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.footer-row{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+}
+
+.footer-row-text{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 10px;
+	height: 21px;
+
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+}
+.footer-headline{
+	height: 31px;
+
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FF7070;
+}
+
+.footer-link-text{
+	height: 21px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #000000;
+}

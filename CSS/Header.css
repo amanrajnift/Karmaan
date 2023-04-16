@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	height: 51px;
+	background-color: white;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+	padding: 10px 80px;
+	justify-content: space-between;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	height:50px;
+	margin-right: 60px;
+	cursor: pointer;
+}
+
+.logo-margin{
+	display: flex;
+	flex: 1;
+	max-width: 330px;
+}
+
+.navigation{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+	margin-right: 60px;
+	max-width: 457px;
+	height: 31px;
+	padding: 10px;
+}
+
+.account{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+	max-width: 222px;
+	height: 51px;
+	padding: 0px;
+	justify-content: space-between;
+}
+
+.header-selected{
+	display: flex;
+	height: 31px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FF7468;
+	margin-right: 30px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.header-selected:hover{
+	opacity: 0.6;
+}
+
+.header-selected:active{
+	color: black;
+	opacity: 1;
+}
+
+.header-default{
+	display: flex;
+	height: 31px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	color: #000000;
+	margin-right: 30px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.header-default:hover{
+	color: #5DADAA;
+}
+
+.header-default:active{
+	color: #FF7468;
+}
+
+.header-last{
+	display: flex;
+	height: 31px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	color: #000000;
+	cursor: pointer;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.header-last:hover{
+	color: #5DADAA
+}
+
+.header-last:active{
+	color: #FF7468;
+}
+
+.header-login-text{
+	height: 31px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	color: #5DADAA;
+	margin-right: 30px;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.header-login-text:hover{
+	color: black
+}
+
+.header-login-text:active{
+	color: #FF7468;
+}
+
+.header-signup-box{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 20px;
+	height: 31px;
+	border: 1px solid #5DADAA;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	color: #5DADAA;
+	background-position: center;
+	transition: background 0.8s;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.header-signup-box:hover{
+	background-color: #5DADAA;
+	color: white;
+	background: #5DADAA radial-gradient(circle, transparent 1%, #5DADAA 1%) center/15000%;
+}
+
+.header-signup-box:active{
+	  background-color: whitesmoke;
+	  background-size: 100%;
+	  transition: background 0s;
+}
+

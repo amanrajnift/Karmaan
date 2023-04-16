@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hero{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 50px;
+	gap: 40px;
+	height: 400px;
+	background: #5DADAA;
+	border-radius: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+	justify-content: space-between;
+}
+
+.hero-container1{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	height: 400px;
+	max-width: 568px;
+	margin: 0px;
+}
+
+.hero-container2{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	height: 400px;
+	max-width: 572px;
+	margin: 0px;
+}
+
+.hero-headline{
+	height: 240px;
+	max-width: 568px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 70px;
+	line-height: 80px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.hero-subheadline{
+	max-width: 568px;
+	height: 135px;
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 45px;
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.hero-illustration{
+	display: flex;
+	justify-content: center;
+	height: 148px;
+	margin-bottom: 15px;
+}
+
+.booking-card{
+	display: flex;
+	flex-direction: column;
+	flex:auto;
+	align-items: flex-start;
+	padding: 30px;
+	gap: 20px;
+	max-width: 572px;
+	height: 205.38px;
+	background: #F8FCFA;
+	border-radius: 10px;
+}
+
+.schedule-text{
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 450;
+	font-size: 24px;
+	line-height: 31px;
+	color: #000000;
+}
+
+.location-textbox{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+	border: 1px solid #000000;
+	width: calc(100% - 50px);
+	border-radius: 10px;
+	padding: 15px 25px;
+}
+
+.location-input{
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: black;
+	border: none;
+	cursor: auto;
+	outline: none;
+	width:100%;
+}
+
+.location-icon{
+	margin-right: 15px;
+}
+
+.donate-cta{
+	text-decoration: none;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+
+	background: #FF7468;
+	border-radius: 10px;
+
+	font-family: 'Futura PT';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	color: #FFFFFF;
+	justify-content: center;
+	cursor: pointer;
+}
+
+
+
+@-webkit-keyframes donate-cta {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes donate-cta {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+.donate-cta {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px #FF7468;
+  position: relative;
+}
+.donate-cta:before {
+  content: '';
+  position: absolute;
+  border: #FF7468 solid 6px;
+	border-radius: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.donate-cta:hover:before, .donate-cta:focus:before, .donate-cta:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
+}
